@@ -1,0 +1,64 @@
+body{
+  background-image: linear-gradient(rgb(85, 132, 233),rgb(82, 218, 236));
+  overflow: hidden;
+}
+.container{
+  max-width:450px;
+  margin:150px auto;
+}
+.wrapper{
+  border-radius: 5px;
+  width: 100%;
+}
+#grad1{
+  background-image: linear-gradient(rgb(12, 209, 235),white,rgb(120, 180, 120));
+}
+h2{
+ color:darkblue;
+}
+form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+form .row input{
+    height: 100%;
+    border-radius: 3px;
+    padding-left:25px;
+}
+form .row i{
+  padding:7px 6px;
+  position: absolute;
+}
+form .row{
+  margin-bottom: 25px;
+  height:25px;
+  position: relative;
+}
+form input:focus{
+    border-color: blue;
+}
+
+.sign-up-in button {
+    background-color:rgb(145, 238, 145);
+    color:black; 
+    border-radius:5px;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+}
+.signin-button:hover {
+  background-color:rgb(12, 209, 235);
+}
+.signup-button:hover{
+  background-color: rgb(61, 168, 255);;
+}
+.signin-button:active {
+  background-color:rgb(12, 209, 235);
+}
+.signup-button:active{
+  background-color: rgb(61, 168, 255);;
+}
+  

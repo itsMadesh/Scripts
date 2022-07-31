@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left-container">
+            <div class="myprofile-bar">
+                <div class="user-img-container">
+                    <img class="user-img" src="assets/user.png"/>
+                </div>
+                <div class="nav-bar">
+                    <div class="status-check-container">
+                        <img class="status-check" src="assets/status.png"/>
+                    </div>
+                    <div class="newchat-container">
+                        <h1 class="newchat">+</h1>
+                    </div>
+                    <div class="menu-bar">
+                        <div class="menu-ico">...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-container">
+                <label class="search-ico" for="chat-search"><i class="fa fa-search" ></i></label>
+                <span class="back-ico hide"><i class="fa fa-arrow-left" ></i></span>
+                <input class="search" id="chat-search" placeholder="Search or Start new chat" type="search">
+            </div>
+            <div class="chat-peoples-container">
+                <div class="person-container">
+                    <div class="person-img">
+                        <img src="assets/user.png" alt="chatter-profile" />
+                    </div>
+                    <div class="person-last-chat-details">
+                        <div class="name-time-container">
+                            <div class="person-name">Madeshwaran.A</div>
+                            <div class="lastmsg-time">10.12PM</div>
+                        </div>
+                        <div class="lastmsg-unread-container">
+                            <div class="lastmsg">hiii</div>
+                            <div class="unread-count">5</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="person-container">
+                    <div class="person-img">
+                        <img src="assets/user.png" alt="chatter-profile" />
+                    </div>
+                    <div class="person-last-chat-details">
+                        <div class="name-time-container">
+                            <div class="person-name">Madeshwaran.A</div>
+                            <div class="lastmsg-time">10.12PM</div>
+                        </div>
+                        <div class="lastmsg-unread-container">
+                            <div class="lastmsg">hiii</div>
+                            <div class="unread-count">5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="responser-profile-bar">
+                <div class="back-to-chats-list">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+            </div>
+            <div class="chat-box-container">
+                <!-- <div class="chat-message-container">
+                    <div class="message-box">
+                        <div class="message-content"></div>
+                        <div class="message-time-container">
+                            <span class="message-time"></span>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="response-message-container">
+                    <div class="response-message-box">
+                        <div class="response-message-content"></div>
+                        <div class="response-message-time-container">
+                            <span class="response-message-time"></span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="sent-bar">
+                <img class="box emoji" src="assets/emoji.png"/>
+                <img class="box attach" src="assets/attach.png"/>
+                <textarea class="box input-text" resize="none" type="text" placeholder="Type a message"></textarea>
+                <img class="box microphone" src="assets/microphone.png"/>
+                <img class="box send-ico hide" src="assets/send.png"/>
+            </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="mesgresponse.js"></script>
+</body>
+</html>
+

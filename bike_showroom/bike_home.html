@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bi!showroom!ke</title>
+    <link
+      rel="stylesheet"
+      href="bike_home_add_styles.css"
+    />
+</head>
+<body>
+    <div id="container">
+        <div id="bla-bla">
+            <h1>(Motor)Bike-Web-Showroom</h1>
+            <p>Here you can get your favourite motorbike</p>
+        </div>
+        <div id="search">
+            <h2>Find Your Rider</h2>
+            <input type="text" id="searchValue" >
+            <input type="button" value="search",onclick="bikeSearch()">
+        </div>
+        <div id="form">
+            <h2>Add new Bike</h2>
+            <input type="input" placeholder="Brand"  id="brand">
+            <input type="input" placeholder="Model"  id="model">
+            <input type="input" placeholder="Rating" id="rating">
+            <input type="input" placeholder="Price"  id="price">
+            <input type="submit" value="Add" onclick="addBike()"><br>
+        </div>
+    </div>
+    <div id="bike-container" >
+        <h2 id="subhead">Bikes</h2>
+        <div id="bike_details">
+    
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

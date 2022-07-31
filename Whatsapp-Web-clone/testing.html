@@ -1,0 +1,59 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="UTF-8">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Using change event for Input elements</title> 
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background: #eee;
+        }
+        .wrapper{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 960px;
+        }
+        .wrapper .sent-bar{
+            display: flex;
+        }
+
+        .wrapper .sent-bar .box{
+            height: 100px;
+            min-width:100px;
+            flex-grow: 0;
+        }
+
+        .wrapper .sent-bar  .one{
+            background: red;
+            /* flex-grow: 1; */
+        }
+
+        .wrapper .sent-bar .two{
+            background:green;
+            /* flex-grow: 1; */
+        }
+        .wrapper .sent-bar .three{
+            background:blue;
+            flex-grow: 1;
+        }
+        .wrapper .sent-bar .four{
+            background:orange;
+            /* flex-grow: 0; */
+        }
+    </style>
+
+</head>  
+<body>  
+    <div class="wrapper">
+        <div class="sent-bar"> 
+            <div class="box one"></div>
+            <div class="box two"></div>
+            <div class="box three"></div>
+            <div class="box four"></div>
+        </div>
+    </div>
+</body>  
+</html>  

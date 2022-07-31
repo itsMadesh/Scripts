@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+            padding: 10px 15px;
+            box-shadow: 0px 10px 15px gray;
+            cursor: pointer;
+            color: violet;
+            position: relative;
+            font-size: 30px;
+            border-top-right-radius:10px ;
+            border-bottom-left-radius: 10px;
+            transition: 1s all;
+        }
+        .btn:before ,.btn:after{
+            content: "";
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            border: 0px solid white;
+            transition: 1s all;
+        }
+        .btn:before{
+            right: -1px;
+            bottom: -1px;
+            border-top:5px solid blue;
+            border-left: 5px solid blue;
+            transform: rotate(180deg);
+        }
+        .btn:after{
+            left: -1px;
+            top: -1px;
+            border-top:5px solid blue;
+            border-left: 5px solid blue;
+        }
+        .btn:hover{
+            border-top-right-radius:0px ;
+            border-bottom-left-radius:0px;
+        }
+        .btn:hover:before, .btn:hover:after{
+            height: 102%;
+            width: 102%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <button class="btn">Submit</span>
+    </div>
+</body>
+</html>
